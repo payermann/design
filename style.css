@@ -39,3 +39,36 @@ a {
   height: 100%;
   object-fit: cover;
 }
+.title {
+  text-align: center;
+  margin: 20px 0;
+}
+.blog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.imgblock {
+  position: relative;
+}
+.blog img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.orangebox {
+  position: absolute;
+  width: 50%;
+  bottom: 4px;
+  right: 0;
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.textblock {
+  padding: 10px;
+}
+.commentsblok {
+  display: flex;
+}
